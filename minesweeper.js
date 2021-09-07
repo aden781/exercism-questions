@@ -7,7 +7,7 @@
 export const annotate = (input) => {
 
     // iterate through board 
-    // x = column coord; y = row coord
+    // x = row coord; y = column coord
     for (let x = 0; x < input.length; x++) {
         for (let y = 0; y < input[x].length; y++) {
             // if square is blank, check adjacent squares
